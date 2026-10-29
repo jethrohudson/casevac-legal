@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Privacy Policy for the CASEVAC iPhone app.">
+<title>CASEVAC Privacy Policy</title>
+<style>
+:root{color-scheme:light dark;--bg:#fff;--fg:#1d1d1f;--muted:#6e6e73;--card:#f5f5f7;--line:#d2d2d7;--link:#0066cc}
+@media (prefers-color-scheme:dark){:root{--bg:#000;--fg:#f5f5f7;--muted:#a1a1a6;--card:#1c1c1e;--line:#38383a;--link:#2997ff}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 20px 64px}
+h1{font-size:2rem;line-height:1.15;margin:0 0 8px;letter-spacing:-.02em}
+h2{font-size:1.25rem;margin:36px 0 8px;letter-spacing:-.01em}
+p,li{margin:0 0 12px}
+ul{padding-left:1.3em}
+a{color:var(--link);text-decoration:none;word-break:break-word}a:hover{text-decoration:underline}
+strong{font-weight:600}
+table{width:100%;border-collapse:collapse;margin:12px 0 20px;font-size:.95rem;display:block;overflow-x:auto}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600}
+nav{font-size:.95rem;margin-bottom:24px}nav a{margin-right:16px}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+.cards a{display:block;background:var(--card);border-radius:14px;padding:18px 20px;margin:12px 0;color:var(--fg)}
+.cards a span{display:block;color:var(--muted);font-size:.95rem;margin-top:4px}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html">CASEVAC</a><a href="terms.html">Terms of Use</a><a href="privacy.html">Privacy Policy</a></nav>
+<h1>CASEVAC Privacy Policy</h1>
+<p><strong>Effective date:</strong> October 29, 2026</p>
+<p>CASEVAC: Nearest Trauma Center ("CASEVAC" or "the app") is made by Mark Iglar, an individual developer ("I", "me"). This policy explains what the app does with your information. It is written to match what the app's code actually does.</p>
+<p><strong>The short version:</strong> CASEVAC has no account, no analytics, no advertising and no tracking, and I run no server that receives your data. Your notes, photos and principal profiles stay encrypted on your iPhone. Your location goes only to the services that need it to give you an answer (Apple Maps, Apple Weather, aviationweather.gov, and, if you turn it on, OpenStreetMap), and to your own team through iCloud when you choose to go On duty.</p>
+<h2>1. What I collect</h2>
+<p><strong>Nothing reaches me.</strong> The app does not send any personal information, usage data, crash logs or identifiers to me or to any server I operate. There are no third-party analytics, advertising or tracking libraries in the app.</p>
+<p>If you choose to share crash reports with app developers in your iPhone settings (Settings › Privacy &amp; Security › Analytics &amp; Improvements), Apple may give me anonymous crash reports. That is controlled by Apple and by you, not by the app.</p>
+<h2>2. Your location</h2>
+<p>The app uses your location to find the nearest emergency rooms and trauma centers, build driving routes, find landing zones and show the weather.</p>
+<ul>
+<li><strong>When:</strong> only while the app is open ("While Using"). The one exception is Team sharing (section 4). If you go On duty <em>and</em> turn on background sharing, the app asks for "Always" permission so your team can still see you while the app isn't on screen. Sharing stops when you go off duty or your shift ends.</li>
+<li><strong>On your iPhone:</strong> your last results (nearest hospitals and the spot they were calculated from), cached weather and cached landing-zone results are kept in the app's storage on your iPhone, protected by iOS Data Protection.</li>
+<li><strong>Where it goes:</strong><ul>
+<li><strong>Apple Maps (MapKit):</strong> your current location and the destination are sent to Apple to calculate drive times and routes, and the map itself comes from Apple. Place searches you type in the advance tools also go to Apple. Apple's Privacy Policy applies: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a>.</li>
+<li><strong>Apple Weather (WeatherKit):</strong> your location is sent to Apple to get current conditions for the map's weather chip.</li>
+<li><strong>aviationweather.gov (U.S. National Weather Service / NOAA):</strong> a search box around your approximate location (about 100 m precision) is sent to find the nearest airport weather report (METAR). The same is done for a landing zone or hospital helipad when you open flight weather.</li>
+<li><strong>OpenStreetMap Overpass servers (only if Pro "candidate LZs" is on):</strong> the search center, rounded to about 100 m, and the search radius are sent to public Overpass servers (overpass-api.de and community mirrors) to find open areas that might work as helicopter landing zones. You can turn this off in Settings.</li>
+<li><strong>Navigation apps:</strong> when you tap GO, the destination is handed to Apple Maps, Google Maps or Waze, whichever you choose. That app's own privacy policy then applies.</li>
+<li><strong>Things you choose to share:</strong> Share ETA, Copy location, Share LZ and similar buttons put your coordinates into a message only when you tap them. You pick who receives it.</li>
+</ul>
+</li>
+</ul>
+<p>These services see your request and your device's internet (IP) address, as any web service does. I do not receive any of it.</p>
+<h2>3. Field notes, team LZs, saved advance packs and photos</h2>
+<p>Hospital field notes (such as ER phone numbers, drop-off pins and entry notes), team landing zones, saved advance packs, and the photos you attach:</p>
+<ul>
+<li>are stored <strong>only on your iPhone</strong>, encrypted with AES-256 using a key kept in the iPhone Keychain ("this device only"), on top of iOS Data Protection;</li>
+<li>are <strong>excluded from iCloud and computer backups</strong>, so they are not restored to a new phone (export them if you want a copy);</li>
+<li>are <strong>never uploaded</strong> by the app. They leave your phone only if you use <strong>Export notes</strong> (Pro), which creates a JSON file that you save or send yourself. <strong>That file is not encrypted.</strong> Keep it safe and share it only with your team.</li>
+</ul>
+<p>Photos come from your camera or photo library only when you tap <strong>Camera</strong> or <strong>Library</strong>. They are downscaled and encrypted. The app does not read the rest of your photo library.</p>
+<h2>4. Team location sharing (Pro, uses iCloud)</h2>
+<p>If you create or join a Team, the app uses <strong>Apple's iCloud (CloudKit)</strong> to share information within that team. The team lives in the iCloud account of the person who created it. Only people that person invites through Apple's sharing can see it. I cannot see it.</p>
+<p>What is shared with your team:</p>
+<ul>
+<li><strong>Your profile:</strong> callsign, name, role, phone number and map color. These are stored in your team's iCloud records.</li>
+<li><strong>Status:</strong> On duty or off duty, SOS alerts, battery level (you can turn this off) and the time of your last update.</li>
+<li><strong>While you are On duty only:</strong> your coordinates, heading and speed. These are stored in CloudKit <strong>end-to-end encrypted fields</strong>, which Apple says even Apple cannot read. Your coordinates are removed from the shared record when you go off duty. On duty turns itself off when your shift length ends.</li>
+<li><strong>Rally point:</strong> a name and location set by a team member, also end-to-end encrypted.</li>
+</ul>
+<p><strong>Leaving a team</strong> deletes your member record. If you created the team, leaving deletes the whole team for everyone. Team alerts use Apple Push Notifications.</p>
+<p>Your team profile is also kept on your iPhone in the app's settings.</p>
+<h2>5. Principal medical profiles</h2>
+<p>Medical profiles you enter for the people you protect (such as allergies, medications, blood type, conditions, physicians and emergency contacts):</p>
+<ul>
+<li>are stored <strong>only on your iPhone</strong>, in their own encrypted file (AES-256-GCM) with a separate key that requires a device passcode and never leaves the device;</li>
+<li>open only with Face ID or your passcode, and lock automatically when you leave those screens or the app;</li>
+<li>are <strong>never synced, never sent to iCloud or your team, never included in Export notes, and excluded from backups</strong>.</li>
+</ul>
+<p>If you create the <strong>ER handoff PDF</strong>, it is made on your iPhone and is deleted from the iPhone when you close the preview. If you share or print it, you decide who receives it. The app reminds you to share it only with treating clinicians. You are responsible for having the principal's permission to record and share their medical information.</p>
+<h2>6. Hospital and heliport data updates</h2>
+<p>The app ships with public hospital, trauma-center and heliport data. Once a day at most, it may download updated public data files from a GitHub Pages website (operated by GitHub, Inc.). <strong>These requests contain no location or personal information.</strong> Only standard internet information, such as your IP address, is seen by GitHub. See GitHub's Privacy Statement: <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement</a>.</p>
+<h2>7. Purchases</h2>
+<p>CASEVAC Pro subscriptions are sold and processed by <strong>Apple</strong> through your Apple ID. I never see your name, payment card or Apple ID. The app only checks with Apple, on your device, whether you have an active subscription.</p>
+<h2>8. Permissions the app asks for</h2>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Why</th>
+<th>Required?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location (While Using)</td>
+<td>Nearest ER, routes, LZs, weather</td>
+<td>Strongly recommended; GO and Call 911 work without it</td>
+</tr>
+<tr>
+<td>Location (Always)</td>
+<td>Team background sharing while On duty</td>
+<td>Optional</td>
+</tr>
+<tr>
+<td>Notifications</td>
+<td>Team SOS alerts and shift-end reminders</td>
+<td>Optional</td>
+</tr>
+<tr>
+<td>Face ID</td>
+<td>Unlock principal medical profiles</td>
+<td>Optional (passcode works too)</td>
+</tr>
+<tr>
+<td>Camera / Photos</td>
+<td>Attach photos to field notes and LZs</td>
+<td>Optional</td>
+</tr>
+</tbody>
+</table>
+<p>You can change these at any time in iPhone Settings › CASEVAC.</p>
+<h2>9. Apple's privacy manifest</h2>
+<p>The app's privacy manifest (PrivacyInfo.xcprivacy) says the app does <strong>no tracking</strong> and lists no tracking domains. It declares only <strong>approximate location</strong>, used for app functionality and not linked to your identity. It also declares the app's use of iOS "UserDefaults" to store its own settings.</p>
+<h2>10. How long data is kept, and how to delete it</h2>
+<ul>
+<li><strong>On your iPhone:</strong> until you delete it in the app or delete the app. Deleting the app removes the app's on-device data. Encryption keys stored in the Keychain may remain until the device is erased, but without the data they protect nothing.</li>
+<li><strong>Team data in iCloud:</strong> your location is cleared when you go off duty. Your member record is deleted when you leave the team, and the whole team is deleted when its creator leaves.</li>
+<li><strong>Third-party services</strong> (Apple, NOAA/aviationweather.gov, OpenStreetMap servers, GitHub) keep request information under their own policies.</li>
+</ul>
+<p>Because I hold no data about you, there is nothing for me to access, correct or delete on my side. You control all app data on your device. If you have a question or a privacy request, contact me (section 13).</p>
+<h2>11. Children</h2>
+<p>CASEVAC is a professional tool for executive-protection and security teams. It is not directed to children under 13, and I do not knowingly collect information from children.</p>
+<h2>12. Changes</h2>
+<p>If this policy changes, I will update the date at the top and post the new version at this address. Important changes will also be noted in the app's release notes.</p>
+<h2>13. Contact</h2>
+<p>Mark Iglar, developer of CASEVAC<br />
+Email: <a href="mailto:iglarm@me.com"><strong>iglarm@me.com</strong></a></p>
+<footer>© 2026 Mark Iglar · CASEVAC</footer>
+</main>
+</body>
+</html>
